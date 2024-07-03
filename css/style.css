@@ -1,0 +1,538 @@
+@import url(nav.css);
+
+
+
+body{ 
+
+  margin: 0; 
+  
+  padding: 0; 
+  
+  } 
+  
+  .navbar{ 
+  
+  background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%); 
+  
+  display: flex; 
+  
+  align-items: center; 
+  
+  } 
+  
+   
+  
+  .pseudo{ 
+  
+  display: flex; 
+  
+  font-family:HighVoltage Heavy Rough ; 
+  
+  color: rgb(184, 183, 183); 
+  
+  list-style: none; 
+  
+  height:130px ; 
+  
+  align-items: center; 
+  
+  font-size: 100px; 
+  
+  } 
+  
+   
+   
+  
+  .pseudo { 
+  
+  color: rgb(141, 216, 244); 
+  
+  animation: colorChange 2s infinite; 
+  
+  } 
+  
+   
+  
+  @keyframes colorChange { 
+  
+  0% { 
+  
+  color: rgb(227, 181, 164); 
+  
+  } 
+  
+  50% { 
+  
+  color: rgb(136, 136, 238); 
+  
+  } 
+  
+  100% { 
+  
+  color: rgb(163, 201, 99); 
+  
+  } 
+  
+   
+  
+  } 
+  
+   
+  
+  .pix{ 
+  
+  width:160px; 
+  
+  height:150px; 
+  
+  border-radius: 100%; 
+  
+  margin-left:10px; 
+  
+  } 
+  
+   
+  
+  .body{ 
+  
+  background-color: rgb(162,163,166); 
+  
+  background-color: linear-gradient(104deg, rgba(162,163,166,1) 5%, rgba(124,199,237,0.7525210767900911) 46%, rgba(61,62,62,1) 100%, rgba(255,255,255,1) 100%); 
+  
+  width:100% ; 
+  
+  height:100%;  
+  
+  } 
+  
+   
+   
+  
+  .IIM{ 
+  
+  display: flex; 
+  
+  width: 5%; 
+  
+  margin-left:93%; 
+  
+  margin-top: -120px; 
+  
+  } 
+  
+   
+  
+  @keyframes rotation {  
+  
+  0% {  
+  
+  transform: rotate(0deg);  
+  
+  }  
+  
+  100% {  
+  
+  transform: rotate(360deg);  
+  
+  }  
+  
+  }  
+  
+  .pix {  
+  
+  width: 130px;  
+  
+  height: 130px;  
+  
+  animation: rotation 20s linear infinite;  
+  
+  }  
+  
+   
+  
+  .titre1{ 
+  
+  background-color: red; 
+  
+  }  
+
+
+
+
+  .texteinfo{ 
+
+    display: flex; 
+    
+    width: 600px; 
+    
+    height:300px ; 
+    
+    align-items: center; 
+    
+    justify-content: center; 
+    
+    font-family:HighVoltage Heavy Rough ; 
+    
+    color: rgb(185, 179, 179); 
+    
+    margin-left:350px; 
+    
+    } 
+    
+     
+    
+    .infoPerso{ 
+    
+    width: 100%; 
+    
+    height: 300px; 
+    
+    background-color: blueviolet; 
+    
+    margin-top: 30px; 
+    
+    display: flex; 
+    
+    } 
+    
+     
+    
+    .boxInfoPerso{ 
+    
+    display: flex; 
+    
+    width: 400px; 
+    
+    height:300px ; 
+    
+    align-items: center; 
+    
+    justify-content: center; 
+    
+    margin-left: 25px; 
+    
+    font-family:HighVoltage Heavy Rough ; 
+    
+    color: rgb(185, 179, 179); 
+    
+    font-size: 40px; 
+    
+    } 
+
+
+    .texteinfo2{ 
+
+      display: flex; 
+      
+      width: 600px; 
+      
+      height:300px ; 
+      
+      align-items: center; 
+      
+      justify-content: center; 
+      
+      font-family:HighVoltage Heavy Rough ; 
+      
+      color: rgb(185, 179, 179); 
+      
+      margin-left:25px; 
+      
+      } 
+      
+      .boxInfoPerso2{ 
+      
+      display: flex; 
+      
+      width: 400px; 
+      
+      height:300px ; 
+      
+      align-items: center; 
+      
+      justify-content: center; 
+      
+      margin-left: 140px; 
+      
+      font-family:HighVoltage Heavy Rough ; 
+      
+      color: rgb(185, 179, 179); 
+      
+      font-size: 40px; 
+      
+      } 
+      
+       
+      .infoPerso2{ 
+      
+      width: 100%; 
+      
+      height: 300px; 
+      
+      background-color: rgb(114, 39, 185); 
+      
+      display: flex; 
+      
+      } 
+
+
+      .infoPerso3{ 
+
+        width: 100%; 
+        
+        height: 300px; 
+        
+        background-color: rgb(93, 32, 150); 
+        
+        display: flex; 
+        
+        } 
+        
+        .texteinfo3{ 
+        
+        display: flex; 
+        
+        width: 600px; 
+        
+        height:300px ; 
+        
+        align-items: center; 
+        
+        justify-content: center; 
+        
+        font-family:HighVoltage Heavy Rough ; 
+        
+        color: rgb(185, 179, 179); 
+        
+        margin-left:220px; 
+        
+        } 
+        
+        .boxInfoPerso3{ 
+        
+        display: flex; 
+        
+        width: 400px; 
+        
+        height:300px ; 
+        
+        align-items: center; 
+        
+        justify-content: center; 
+        
+        margin-left: 120px; 
+        
+        font-family:HighVoltage Heavy Rough ; 
+        
+        color: rgb(185, 179, 179); 
+        
+        font-size: 40px; 
+        
+        } 
+
+
+         
+
+ 
+
+.infoPerso2{ 
+
+  width: 100%; 
+  
+  height: 300px; 
+  
+  background-color: rgb(114, 39, 185); 
+  
+  display: flex; 
+  
+  } 
+  
+  .infoPerso3{ 
+  
+  width: 100%; 
+  
+  height: 300px; 
+  
+  background-color: rgb(93, 32, 150); 
+  
+  display: flex; 
+  
+  } 
+  
+   
+  
+  .texteinfo2{ 
+  
+  display: flex; 
+  
+  width: 600px; 
+  
+  height:300px ; 
+  
+  align-items: center; 
+  
+  justify-content: center; 
+  
+  font-family:HighVoltage Heavy Rough ; 
+  
+  color: rgb(185, 179, 179); 
+  
+  margin-left:25px; 
+  
+  } 
+  
+  .boxInfoPerso2{ 
+  
+  display: flex; 
+  
+  width: 400px; 
+  
+  height:300px ; 
+  
+  align-items: center; 
+  
+  justify-content: center; 
+  
+  margin-left: 140px; 
+  
+  font-family:HighVoltage Heavy Rough ; 
+  
+  color: rgb(185, 179, 179); 
+  
+  font-size: 40px; 
+  
+  } 
+
+
+  .infoPerso3{ 
+
+    width: 100%; 
+    
+    height: 300px; 
+    
+    background-color: rgb(93, 32, 150); 
+    
+    display: flex; 
+    
+    } 
+    
+    .texteinfo3{ 
+    
+    display: flex; 
+    
+    width: 600px; 
+    
+    height:300px ; 
+    
+    align-items: center; 
+    
+    justify-content: center; 
+    
+    font-family:HighVoltage Heavy Rough ; 
+    
+    color: rgb(185, 179, 179); 
+    
+    margin-left:220px; 
+    
+    } 
+    
+    .boxInfoPerso3{ 
+    
+    display: flex; 
+    
+    width: 400px; 
+    
+    height:300px ; 
+    
+    align-items: center; 
+    
+    justify-content: center; 
+    
+    margin-left: 120px; 
+    
+    font-family:HighVoltage Heavy Rough ; 
+    
+    color: rgb(185, 179, 179); 
+    
+    font-size: 40px; 
+    
+    } 
+    
+     
+     
+    
+    .infoPerso4{ 
+    
+    width: 100%; 
+    
+    height: 300px; 
+    
+    background-color: rgb(160, 78, 236); 
+    
+    display: flex; 
+    
+    } 
+    
+    .texteinfo4{ 
+    
+    display: flex; 
+    
+    width: 600px; 
+    
+    height:300px ; 
+    
+    align-items: center; 
+    
+    justify-content: center; 
+    
+    font-family:HighVoltage Heavy Rough ; 
+    
+    color: rgb(185, 179, 179); 
+    
+    margin-left:380px; 
+    
+    font-size: 60px; 
+    
+    } 
+    
+     
+     
+    
+    h1 { 
+    
+    color: rgb(141, 216, 244); 
+    
+    animation: colorChange 2s infinite; 
+    
+    } 
+    
+    @keyframes colorChange { 
+    
+    0% { 
+    
+    color: rgb(227, 181, 164); 
+    
+    } 
+    
+    50% { 
+    
+    color: rgb(136, 136, 238); 
+    
+    } 
+    
+    100% { 
+    
+    color: rgb(163, 201, 99); 
+    
+    } 
+    
+    } 
+    
+    h1{ 
+    
+    font-size: 50px; 
+    
+    } 
+  
+
+
